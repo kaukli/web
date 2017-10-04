@@ -36,18 +36,84 @@
             tillegg er det ikke mulig å hente informasjon om matteformler
             fra et bilde, så derfor bruker man MathML. Det er oversiktlig,
             og gir større muligheter for brukeren til å sette dette inn på
-            nettsiden deres.
-            Det er to typer MathML, Content og Presentation.
-            C-MathML beholder semantikken i det matematiske uttrykket
-            P-MathML beskriver hvordan det skal vises
+            nettsiden deres.</p>
+            <p>Det er to typer MathML, Content og Presentation.
+            <ul>
+              <li>C-MathML beholder semantikken i det matematiske uttrykket</li>
+              <li>P-MathML beskriver hvordan det skal vises.</li>
+            </ul>
+            </p>
 
-            Noen eksempler på bruk av MathML vises under her:
+            <p><i>Merk at dette ikke støttes i Chrome (ikke som jeg har
+              orket å finne ut av) så jeg anbefaler å bruke Mozilla
+              Firefox.</i></p>
 
-            //eksempler i HTML
+            <p>Noen eksempler på bruk av MathML vises under her:</p>
 
-            MathML er relativt nytt, så det er ikke alle nettlesere som
-            støtter denne funksjonen, men teorien bak dette kan leses
-            mer om her: MathJax(https://www.mathjax.org/).</p>
+            <h4>Formelen for å finne arealet til sirkel</h4>
+            <math display="block">
+              <mrow>
+                <mrow>
+                  <munder>
+                    <mrow>
+                      <munder accentunder="true">
+                        <mrow>
+                          <mrow>
+                              <mn>2</mn>
+                              <mtext>&pi;</mtext>
+                              <mi>x</mi>
+                          </mrow>
+                        </mrow>
+                          <mo>&macr;</mo>
+                      </munder>
+                    </mrow>
+                      <mn>2</mn>
+                  </munder>
+                </mrow>
+                  <mo>*</mo>
+                  <mi>x</mi>
+              </mrow>
+            </math>
+
+            <h4>Formelen for å finne volumet av en kjegle</h4>
+            <math display="block">
+            <mrow>
+              <munder>
+                    <mrow>
+                      <munder accentunder="true">
+                            <mrow>
+                              <mrow>
+                                <mi>&pi;</mi>
+                                <msup>
+                                        <mi>x</mi>
+                                      <mn>2</mn>
+                                </msup>
+                                <mi>y</mi>
+                              </mrow>
+                            </mrow>
+                            <mo>&macr;</mo>
+                      </munder>
+                    </mrow>
+                    <mn>3</mn>
+              </munder>
+            </mrow>
+            </math>
+
+            <h4>Røtter av et slag</h4>
+            <math display="block">
+            <mrow>
+              <msqrt>
+                <mi>a</mi>
+                <mi>b</mi>
+              </msqrt>
+            </mrow>
+            </math>
+            <p>Jeg kan ikke en shit om matte</p>
+
+            <p>MathML er relativt vanskelig å lage en kompilator til,
+              så det er ikke alle nettlesere som velger å ikke støtte den,
+              men teorien bak dette kan leses mer om her:
+              MathJax(https://www.mathjax.org/).</p>
         </div>
       </div>
       <aside>

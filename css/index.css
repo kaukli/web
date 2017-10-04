@@ -145,6 +145,28 @@ h1, h2, h3, h4, h5{
   color: #999999;
 }
 
+table{
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.tableTitle{
+  font-weight: bold;
+  color: #262626;
+}
+
+td, th{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+  color: #444;
+  font-weight: normal;
+}
+
+tr:nth-child(even){
+  background-color: #dddddd;
+}
+
 header, main, footer{
   padding-left: 15px;
 }
