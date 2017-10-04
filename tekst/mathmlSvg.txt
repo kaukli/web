@@ -1,0 +1,102 @@
+-------------------------------------------------------------------
+
+Hva er MathML, hvorfor er det nyttig i kombinasjon med HTML
+,tre-fire eksempler på bruken og styrken til MathML
+	
+			      Svar
+		%------------------------------%
+
+MathML er et markup language som viser en strukturert måte
+å representere matematiske formler. Det er veldig mye matte
+som HTML ikke klarer å lese, og ofte blir formlene feil. I 
+tillegg er det ikke mulig å hente informasjon om matteformler
+fra et bilde, så derfor bruker man MathML. Det er oversiktlig,
+og gir større muligheter for brukeren til å sette dette inn på 
+nettsiden deres. 
+Det er to typer MathML, Content og Presentation.
+C-MathML beholder semantikken i det matematiske uttrykket
+P-MathML beskriver hvordan det skal vises
+
+Noen eksempler på bruk av MathML vises under her:
+
+//eksempler i HTML
+
+MathML er relativt nytt, så det er ikke alle nettlesere som
+støtter denne funksjonen, men teorien bak dette kan leses
+mer om her: MathJax(https://www.mathjax.org/)
+
+-------------------------------------------------------------------
+
+Hva er SVG, hva kan det brukes til, noen eksepler på hvordan man 
+kan tegne SGV med HTML. Minst en eksempel med mer enn én form
+i samme figur
+
+			      Svar
+		%------------------------------%
+
+SVG står for Scalable Vector Graphics. Det blir brukt for å definere
+vektorbasert grafikk på internett, og lagres i XML-format.
+Det flotte med SVG er at det baserer seg på vektorer og mister dermed
+ikke kvaliteten om den skulle bli endret på størrelse eller bli 
+zoomet inn. I tillegg kan det animeres. 
+
+Noen eksempler på SVG ser du under her:
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+
+Forskjellen mellom SVG og canvas er at SVG er ikke oppløsningsbasert,
+støtter hendelser, men er ikke så bra med spillapplikasjoner, slik som
+canvas er.
+
+-------------------------------------------------------------------
+
+Hva Git og GitHub er, hvilke fordeler det er å bruke det. Ta skjerm
+dump av de siste commitene jeg har gjort for å eksemplifisere bruken,
+og legge det på nettsiden. 
+
+			      Svar
+		%------------------------------%
+
+Git er et versjonskontrollsystem, ettersom utviklere ofte forandrer 
+koden på ting de lager. Det fører ofte til nye versjoner til og etter 
+første offisielle (non-beta) utgivelsen. Slik kan man se igjennom 
+nye endringer, laste ned nyeste versjonen av programmet, gjøre endringer
+og laste opp en nyere versjon igjen. Slik kan alle utviklerne se 
+endringene, laste dem ned og bidra. Selvsagt finnes det flere
+versjonskontrollystemer, men Git er den preferable versjonen.
+
+Git er kommando-linje-verktøy, og GitHub er samlestedet for Git, 
+et oppbevaringsted der utviklere lagrer prosjektene og samler seg
+med likesinnede folk. 
+
+Oppbevaringstedet (Ofte forkortet "repo" av engelske ordet repository)
+er et sted der alle filer for et spesifikt prosjekt er oppbevart.
+Hvert prosjekt har sin egen rep, og man har tilgang til dette
+med en unik URL.
+
+-------------------------------------------------------------------
+
+I all hovedsak skulle nettsiden være lett leselig, lett tilgjengelig
+og over alt ganske enkel og grei. Ikke noe spesielt, men oversiktlig
+til daglig bruk som jeg kan bygge på. Øverst skal det være en 
+navigator med knapper som leder til andre deler av nettsiden uten
+å være så forbaskede vanskelig! Ikke bare det, men ønsker også at 
+nettsiden skal vise hvor man er med breadcrumbs. Tydelig header,
+pent plassert generelt med en kalender til høyre med innleverings-
+frister under (for å skape stress)
+
+Med tydelige plasseringer skjønner man hvor som er hva, og hva man
+kan finne på i den forbaskede nettsiden som mest sannsynlig kommer 
+til å bli et knytepunkt til obligene mine. Jeg vil helst kunne lese 
+raskt gjennom artiklene uten å bli kastet med masse tekst i ansiktet
+ettersom jeg er fryktelig lat på å lese. I tillegg syns jeg det er 
+veldig stas om jeg ikke blir sliten av farger og diverse, og holder
+det på et minimalistisk, monotont, men modernistisk nivå. 
+
+Under her ser man en god del skisser og utkast jeg har jobbet med de
+siste dagene, samt kommentarer. Skulle ønske jeg forsto Grid og
+Flexbox så mye bedre enn det jeg gjør, for jeg tror nettsiden hadde
+blitt knall slik ettersom den har basert seg rundt på ideen med grid.
+
+-------------------------------------------------------------------
